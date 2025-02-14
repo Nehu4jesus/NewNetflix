@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='footer_outer_container'>
       <div className='footer_inner_container'>
         <div className='footer_icons'>
-          <FaceBookOutlinedIcon />
+          <FacebookOutlinedIcon />
           <InstagramIcon />
           <YouTubeIcon />
         </div>
