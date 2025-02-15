@@ -3,45 +3,70 @@
     color: grey;
     display: flex;
     justify-content: center;
-}
-.footer_inner_container {
-    width: 60%;
-    /* background-color: red; */
-}
-.footer_icons {
-    background-color: blue;
-    width: 12%;
+    padding: 20px 0;
+  }
+  
+  .footer_inner_container {
+    width: 80%; /* Or whatever width you prefer */
     display: flex;
+    flex-direction: column; /* Essential for vertical arrangement */
+    /* align-items: center; */
+  }
+  
+  .footer_icons {
+    display: flex;
+    align-items: start;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-bottom: 20px;
     color: #fff;
-} 
-.footer_data{
+    width: 150px; /* Adjust as needed */
+  }
+  
+  .footer_links_container {
     display: flex;
-    justify-content: space-between;
-}
-.footer_data ul{
+    flex-wrap: wrap; /* Important: Allows wrapping to new lines */
+    justify-content: space-between; /* Distribute space between columns */
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  .footer_links_column {
+    width: calc(25% - 20px); /* Key: 25% width minus some margin */
+    margin-bottom: 20px; /* Space between columns (especially on wrap) */
+  }
+  
+  .footer_links_column ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer_links_column li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .footer_bottom {
+    display: flex;
+    flex-direction: column; /* Stack vertically */
+    align-items: start;
+    width: 100%;
+  }
+  .service_code_container {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 12vh;
-    /* background-color: blue; */
-}
-.footer_data ul li{
-    cursor: pointer;
-}
-.service_code {
-    display: flex;
     align-items: center;
-    justify-content: center;
-    border: #fff 1px solid;
-    width: 10%;
-    margin: 10px 0;
-    cursor: pointer;
-}
-.copy_right{
-    font-size: 12px;
     margin-bottom: 10px;
-}
+  }
 
+  
+  .service_code {
+    border: #fff 1px solid;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-bottom: 5px;
+  }
+  
+  .copy_right {
+    font-size: 12px;
+  }
