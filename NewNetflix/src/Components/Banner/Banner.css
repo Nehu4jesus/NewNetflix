@@ -6,17 +6,17 @@
     object-fit: contain;
    
 }
-.banner__contents{
+.banner_contents{
     margin-left: 30px;
     padding-top: 300px;
     /* height: 190px; */
 }
-.banner__title{
+.banner_title{
     font-size: 3rem;
     font-weight: 800;
     padding-bottom: 0.3rem;
 }
-.banner__description{
+.banner_tdescription{
     width: 45rem;
     line-height: 1;
     padding-top: 1rem 0;
@@ -24,14 +24,14 @@
     max-width: 360px;
     height: 80px;
 }
-.banner__buttons {
+.banner_buttons {
     display: flex;
     align-items: center;
     margin-top: 20px; /* Add space between the title and buttons */
 }
 
 
-.banner__button{
+.banner_button{
     cursor: pointer;
     color: #fff;
     outline: none;
@@ -51,12 +51,12 @@
   
 }
 
-.banner__button:hover{
+.banner_button:hover{
     color: #000;
     background-color: #c6c6c6;
     transition: all 0.2s;
 }
-.banner__fadeBottom{
+.banner_fadeBottom{
     height: 40vh;
     background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
 }
