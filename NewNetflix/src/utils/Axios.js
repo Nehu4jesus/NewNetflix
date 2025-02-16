@@ -1,6 +1,7 @@
 import axios from 'axios';
 
+// utils/Axios.js
 const instance = axios.create({
-    baseURL: "http://api.themoviedb.org/3" 
+    baseURL: "https://api.themoviedb.org/3" // Change to HTTPS
 });
 export default instance;
