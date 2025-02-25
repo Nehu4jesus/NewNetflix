@@ -1,0 +1,7 @@
+.rowList {
+  background-color: #000000; /* Black background */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width */
+  padding: 0; /* Remove any unnecessary padding */
+  margin: 0; /* Remove any margins */
+}
