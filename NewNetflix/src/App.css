@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
 }
-.App{
-  background-color: black;
+.App {
+    background-color: black;
+    min-height: 100vh; /* Ensure the App takes up the full viewport height */
+    overflow-x: hidden; /* Prevent horizontal scrolling unless needed */
 }
