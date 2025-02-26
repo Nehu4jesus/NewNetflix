@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+.App {
+    min-height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    overflow-x: hidden; /* Prevent horizontal scrolling unless needed */
+    background-color: #000000; /* Black background for the entire app */
+    box-sizing: border-box; /* Include padding/borders in width/height */
+}
